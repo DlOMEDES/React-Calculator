@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  /* easier to calculate rems */
+  font-size: 10px; 
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #16151d;
+  color: white;
+  width: 100%;
+}
+
+button {
+  display: block;
+  background: none;
+  border: none;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button:active {
+  box-shadow: inset 0 0 8rem 0 rgba(0,0,0,0.25);
+}

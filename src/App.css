@@ -1,0 +1,83 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  text-align: center;
+  width: 320px;
+  height: 520px;
+  margin: 80px auto;
+}
+
+.calculator-display {
+  color: #fff;
+  background: #292929;
+  line-height: 12rem;
+  font-size: 7rem;
+  padding: 0 3rem;
+  text-align: right;
+  /* flex: 1; */
+}
+
+.calculator-keypad {
+  height: 40rem;
+  display: flex;
+}
+
+.calculator .input-keys {
+  width: 24rem;
+  
+}
+
+.calculator .function-keys {
+  display: flex;
+  background: #e0e0e0;
+}
+
+.calculator .operation-keys {
+  background: #f19233;
+}
+
+.calculator .digit-keys {
+  background: #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.calculator-key {
+  width: 8rem;
+  height: 8rem;
+  border-top: 1px solid #777;
+  border-right: 1px solid #555;
+  text-align: center;
+  line-height: 8rem;
+}
+
+.calculator .function-keys .calculator-key {
+  font-size: 2rem;
+}
+
+.calculator .function-keys .key-multiply {
+  line-height: 5rem;
+}
+
+.calculator .digit-keys .calculator-key {
+  font-size: 2.2rem;
+}
+
+.calculator .digit-keys .key0 {
+  width: 16rem;
+  text-align: left;
+  padding-left: 3.2rem;
+}
+
+.calculator .operation-keys .calculator-key {
+  color: #fff;
+  border-right: 0;
+  font-size: 3rem;
+}
+
